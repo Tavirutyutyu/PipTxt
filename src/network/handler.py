@@ -1,7 +1,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
 from pathlib import Path
-from sender import FileReader
+from storage import FileReader
 
 class GetHandler(BaseHTTPRequestHandler):
     def __init__(self, sender_path, *args, **kwargs):
