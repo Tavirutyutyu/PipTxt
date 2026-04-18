@@ -1,4 +1,5 @@
 from network import GetHandler, ServerCommand, ServerController
+from transfer import Reciever
 
 import os
 
