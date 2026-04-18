@@ -30,9 +30,9 @@ class Menu:
         filename = input("\nFilename: ").strip()
         try:
             self.reciever.get_file(filename)
-            print("✔ File received")
+            print("OK File received")
         except Exception:
-            print("✘ Transfer failed")
+            print("ERROR Transfer failed")
 
         input("\nPress Enter to continue...")
         
