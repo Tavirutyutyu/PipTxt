@@ -54,12 +54,12 @@ class Menu:
         status = "RUNNING" if self.server_controller.is_running() else "STOPPED"
         action = "Stop server" if self.server_controller.is_running() else "Start server"
 
-        print("╔══════════════════════════════════════╗")
-        print("║            PipTxt Control            ║")
-        print("╠══════════════════════════════════════╣")
-        print(f"║ Server status : {status:<18}   ║")
-        print("╠══════════════════════════════════════╣")
-        print("║ 1. Request file                      ║")
-        print(f"║ 2. {action:<31}   ║")
-        print("║ 3. Exit                              ║")
-        print("╚══════════════════════════════════════╝")
+        print("+--------------------------------------+")
+        print("|            PipTxt Control            |")
+        print("+--------------------------------------+")
+        print(f"| Server status : {status:<18}   |")
+        print("+--------------------------------------+")
+        print("| 1. Request file                      |")
+        print(f"| 2. {action:<31}   |")
+        print("| 3. Exit                              |")
+        print("+--------------------------------------+")
