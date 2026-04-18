@@ -18,7 +18,3 @@ class Reciever:
         filepath = self.reciever_path / filename
         with filepath.open("w", encoding="utf-8") as file:
             file.write(content)
-
-r = Reciever("192.168.1.127", "8080", "/home/tavirutyutyu/Programming/pip_txt/resources/reciever")
-
-r.get_file("error.txt")
